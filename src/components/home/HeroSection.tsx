@@ -58,11 +58,11 @@ export default function HeroSection() {
       />
 
       {/* Content */}
-      <div className="relative z-10 container-site h-full flex items-center">
+      <div className="relative z-10 container-site h-full flex items-center text-center lg:text-left">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center w-full">
           {/* Left content */}
           <div>
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex items-center justify-center lg:justify-start gap-3 mb-6">
               <span className="block w-10 h-0.5 bg-gold" />
               <span
                 className="text-gold font-bold uppercase"
@@ -72,20 +72,19 @@ export default function HeroSection() {
               </span>
             </div>
             <h1
-              className="text-white font-bold mb-6"
-              style={{ fontSize: '52px', lineHeight: '1.1' }}
+              className="text-white font-bold mb-6 text-[36px] md:text-[46px] lg:text-[52px] leading-[1.1]"
             >
               {COLLEGE.name}
             </h1>
             <p
-              className="text-white/80 mb-10 max-w-lg"
+              className="text-white/80 mb-10 max-w-lg mx-auto lg:mx-0"
               style={{ fontSize: '17px', lineHeight: '1.8' }}
             >
-              {COLLEGE.tagline}. Approved by AICTE, affiliated to JNTUK Kakinada,
+              {COLLEGE.tagline}, Approved by AICTE, affiliated to JNTUK Kakinada,
               accredited by NAAC with B++ grade, and granted UGC Autonomous status.
               Located on a sprawling {COLLEGE.campus}.
             </p>
-            <div className="flex items-center gap-5 mb-8 flex-wrap">
+            <div className="flex items-center justify-center lg:justify-start gap-5 mb-8 flex-wrap">
               <Link
                 to="/admissions"
                 className="btn-gold"
@@ -102,7 +101,7 @@ export default function HeroSection() {
               </Link>
             </div>
             <div
-              className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm px-5 py-3 whitespace-nowrap w-fit"
+              className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm px-5 py-3 whitespace-nowrap w-fit mx-auto lg:mx-0"
               style={{ borderRadius: '6px' }}
             >
               <span className="text-white/60" style={{ fontSize: '12px', letterSpacing: '1px' }}>
