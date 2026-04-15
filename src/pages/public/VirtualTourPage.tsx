@@ -191,7 +191,7 @@ function SatelliteMapOverlay({ onClose }: { onClose: () => void }) {
         <div className="relative w-full h-[calc(100%-60px)]">
           <iframe
             title="Eswar College Location"
-            src="https://maps.google.com/maps?q=16.284518,80.048477+(Eswar+College+of+Engineering)&t=k&z=17&ie=UTF8&iwloc=B&output=embed"
+            src="https://maps.google.com/maps?q=Eswar+College+of+Engineering,+Kesanupalli,+Narasaraopeta,+Andhra+Pradesh&t=k&z=16&ie=UTF8&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}
