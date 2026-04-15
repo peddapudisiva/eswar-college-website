@@ -191,7 +191,7 @@ function SatelliteMapOverlay({ onClose }: { onClose: () => void }) {
         <div className="relative w-full h-[calc(100%-60px)]">
           <iframe
             title="Eswar College Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3836.835!2d80.0485!3d16.2845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a83c0e6db65ed%3A0x7f7e3b6e6c0b3b0a!2sEswar%20College%20of%20Engineering!5e1!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+            src="https://maps.google.com/maps?q=16.284518,80.048477+(Eswar+College+of+Engineering)&t=k&z=17&ie=UTF8&iwloc=B&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}
