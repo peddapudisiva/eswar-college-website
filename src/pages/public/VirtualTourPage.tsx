@@ -210,7 +210,7 @@ function SatelliteMapOverlay({ onClose }: { onClose: () => void }) {
    ══════════════════════════════════════════════════════════════ */
 export default function VirtualTourPage() {
   const [activeLocation, setActiveLocation] = useState(TOUR_LOCATIONS[0]);
-  const [activeCategory, setActiveCategory] = useState('All');
+  const [_activeCategory, setActiveCategory] = useState('All');
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   
