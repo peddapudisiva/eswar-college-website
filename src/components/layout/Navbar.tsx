@@ -91,13 +91,13 @@ export default function Navbar() {
             <div className="flex flex-col">
               <span
                 className="text-navy font-bold leading-none"
-                style={{ fontSize: '38px', letterSpacing: '2px' }}
+                style={{ fontSize: 'clamp(24px, 8vw, 38px)', letterSpacing: '2px' }}
               >
                 ESWAR
               </span>
               <span
                 className="text-navy-deep font-bold leading-tight mt-1"
-                style={{ fontSize: '14px', letterSpacing: '1.5px' }}
+                style={{ fontSize: 'clamp(10px, 3vw, 14px)', letterSpacing: '1.5px' }}
               >
                 COLLEGE OF ENGINEERING
               </span>
@@ -291,15 +291,7 @@ export default function Navbar() {
               <Link to="/contact" className="text-[14px] text-navy font-semibold flex items-center gap-2"><svg className="w-4 h-4 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>Contact Us</Link>
             </div>
           </div>
-          <div className="px-6 py-4 bg-gray-50 border-t border-gray-100 flex flex-col gap-3 mt-4">
-            <div className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">Quick Links</div>
-            <div className="grid grid-cols-2 gap-3">
-              <Link to="/login" className="text-[14px] text-navy font-semibold flex items-center gap-2">Student Login</Link>
-              <Link to="/login" className="text-[14px] text-navy font-semibold flex items-center gap-2">Faculty Login</Link>
-              <Link to="/results" className="text-[14px] text-navy font-semibold flex items-center gap-2">Examinations</Link>
-              <Link to="/contact" className="text-[14px] text-navy font-semibold flex items-center gap-2">Contact Us</Link>
-            </div>
-          </div>
+
           <div className="p-4">
             <Link to="/admissions" className="btn-gold w-full text-center block">
               Admissions 2026

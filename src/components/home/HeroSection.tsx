@@ -102,7 +102,7 @@ export default function HeroSection() {
               </Link>
             </div>
             <div
-              className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm px-5 py-3"
+              className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm px-5 py-3 whitespace-nowrap w-fit"
               style={{ borderRadius: '6px' }}
             >
               <span className="text-white/60" style={{ fontSize: '12px', letterSpacing: '1px' }}>
