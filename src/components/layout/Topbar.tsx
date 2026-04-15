@@ -3,7 +3,7 @@ import { TOPBAR_LEFT, TOPBAR_RIGHT } from '../../lib/constants';
 
 export default function Topbar() {
   return (
-    <div className="bg-navy-deep" style={{ height: '40px' }}>
+    <div className="hidden lg:block bg-navy-deep" style={{ height: '40px' }}>
       <div className="container-site h-full flex items-center justify-between">
         <div className="flex items-center gap-0">
           {TOPBAR_LEFT.map((item, i) => (
