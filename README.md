@@ -1,52 +1,48 @@
-# Eswar College of Engineering Institutional Website
+# Eswar College of Engineering - Official Website
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org/)
-[![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://vercel.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+<div align="center">
+  <img src="public/logo.png" alt="Eswar College Logo" width="150" />
+</div>
 
-A modern, high-performance, responsive institutional web application for Eswar College of Engineering (EAMCET Code: ESWR), located in Narasaraopet, Andhra Pradesh.
+<h3 align="center">Institutional Digital Experience & Virtual Tour</h3>
 
-## 🚀 Features
+<p align="center">
+  <a href="https://github.com/peddapudisiva/eswar-college-website/stargazers"><img src="https://img.shields.io/github/stars/peddapudisiva/eswar-college-website" alt="Stars Badge"/></a>
+  <a href="https://github.com/peddapudisiva/eswar-college-website/network/members"><img src="https://img.shields.io/github/forks/peddapudisiva/eswar-college-website" alt="Forks Badge"/></a>
+  <a href="https://github.com/peddapudisiva/eswar-college-website/issues"><img src="https://img.shields.io/github/issues/peddapudisiva/eswar-college-website" alt="Issues Badge"/></a>
+  <a href="https://github.com/peddapudisiva/eswar-college-website/blob/main/LICENSE"><img src="https://img.shields.io/github/license/peddapudisiva/eswar-college-website" alt="License Badge"/></a>
+</p>
 
-- **Dynamic Interactive 3D Virtual Tour:** Built with Three.js via React Three Fiber for an immersive "Little Planet" stereographic campus intro and fully navigable 360-degree views, replicating university-grade aesthetics.
-- **Enterprise Design System:** Fully utilizing a cohesive Navy Blue & Gold palette with standard institutional ALL-CAPS typography scaling.
-- **Progressive Modern Overlays:** Seamless integration with Google Maps, recursive component navigation structures, and high-fidelity recruiter/placement carousels.
-- **Performance Optimized:** Leveraging Vite's ultra-fast Hot Module Replacement (HMR) and optimized build systems.
+## Tech Stack ??
 
-## 🛠️ Installation & Local Development
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/ThreeJs-black?style=for-the-badge&logo=three.js&logoColor=white" />
+</p>
 
-1. Clone the repository:
+## Local Deployment ??
+
+1. **Clone the repository**
    ```bash
    git clone https://github.com/peddapudisiva/eswar-college-website.git
    cd eswar-college-website
    ```
-
-2. Install dependencies:
+2. **Install Dependencies**
    ```bash
    npm install
    ```
-
-3. Start the development server:
+3. **Run the local Dev Server**
    ```bash
    npm run dev
    ```
 
-## 🏗️ Production Build
+## Vercel Cloud Deployment ??
 
-To build the application for deployment:
-```bash
-npm run build
-```
-The optimized bundle will be generated in the `/dist` directory.
+This repository is optimized for immediate Vercel deployment. 
+1. Log into [Vercel](https://vercel.com/new).
+2. Import this GitHub repository.
+3. Vercel will automatically detect `Vite` settings and deploy the application.
 
-## ☁️ Deployment (Vercel)
-
-This application is configured for seamless deployment to Vercel. Connect this GitHub repository directly to Vercel via the dashboard, and pushes to the `main` branch will automatically build and deploy.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
